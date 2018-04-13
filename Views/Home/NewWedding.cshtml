@@ -1,0 +1,39 @@
+<h1>Plan Your Wedding</h1>
+
+@model wedding_planner.Models.WeddingViewModel
+
+<!-- ASP-ACTION GOES TO  METHODNAME  -->
+<h3>Register</h3>
+<table>
+    <form asp-controller="Home" asp-action="AddWedding" method="post">
+        <tr>
+            <td> <label asp-for="Name1">Wedder One:</label></td>
+            <td>
+                <input asp-for="Name1"/>
+                <span asp-validation-for="Name1"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><label asp-for="Name2">Wedder Two:</label></td>
+            <td>
+                <input asp-for="Name2"/>
+                <span asp-validation-for="Name2"></span>
+                </td>
+        </tr>
+        <tr>
+            <td><label asp-for="Date">Date:</label></td>
+            <td>
+                <input asp-for="Date" type="date"/>
+                <span asp-validation-for="Date"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><label asp-for="Address"> Wedding Address:</label></td>
+            <td>
+                <input asp-for="Address" type="Address"/>
+                <span asp-validation-for="Address"></span>
+            </td>
+        </tr>
+        <tr><td><button type="submit">Create</button></td></tr>
+    </form>
+</table>

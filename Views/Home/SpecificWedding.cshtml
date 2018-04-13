@@ -1,0 +1,16 @@
+<h1>@ViewBag.Wedding.Names &#39;s Wedding</h1>
+<h3>Date @ViewBag.Wedding.Date.ToString("MMM dd yyyy")</h3>
+<h3>Guests</h3>
+<ul>
+    @foreach(var guest in ViewBag.Wedding.Guests)
+    {  
+        @foreach(var user in ViewBag.AllUsers) 
+        {
+            @if(user.UserId == guest.UserId)
+            {
+                <p>@user.FirstName @user.LastName</p>
+            }
+        }
+        
+    }
+</ul>

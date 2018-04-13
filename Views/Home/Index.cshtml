@@ -1,0 +1,58 @@
+﻿@model wedding_planner.Models.RegisterViewModel
+
+<!-- ASP-ACTION GOES TO  METHODNAME  -->
+<h3>Register</h3>
+<table>
+    <form asp-controller="Home" asp-action="NewUser" method="post">
+        <tr>
+            <td> <label asp-for="FirstName">First Name:</label></td>
+            <td>
+                <input asp-for="FirstName"/>
+                <span asp-validation-for="FirstName"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><label asp-for="LastName">Last Name:</label></td>
+            <td>
+                <input asp-for="LastName"/>
+                <span asp-validation-for="LastName"></span>
+                </td>
+        </tr>
+        <tr>
+            <td><label asp-for="Email">Email Address:</label></td>
+            <td>
+                <input asp-for="Email"/>
+                <span asp-validation-for="Email"></span>
+            </td>
+        </tr>
+        <tr>
+            <td><label asp-for="Password">Password:</label></td>
+            <td>
+                <input asp-for="Password" type="password"/>
+                <span asp-validation-for="Password"></span>
+            </td>
+        </tr>
+         <tr>
+            <td><label asp-for="PasswordConfirmation">Confirm Password:</label></td>
+            <td>
+                <input asp-for="PasswordConfirmation" type="password"/>
+                <span asp-validation-for="PasswordConfirmation"></span>
+            </td>
+        </tr> 
+        <tr><td><button type="submit">Add a new User</button></td></tr>
+    </form>
+</table>
+
+@{
+    if (ViewBag.error != null) 
+    {
+        <p>@ViewBag.error</p>
+    }
+    
+}
+<h3>Login</h3>
+<form action="/login" method="POST">
+    Email: <input name="loginEmail" type="text"/>
+    Password: <input name="loginPass" type="password"/>
+    <button type="submit">Login</button>
+</form>

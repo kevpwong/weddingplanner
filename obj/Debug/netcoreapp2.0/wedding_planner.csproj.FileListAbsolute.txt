@@ -1,0 +1,10 @@
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/bin/Debug/netcoreapp2.0/wedding_planner.deps.json
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/bin/Debug/netcoreapp2.0/wedding_planner.runtimeconfig.json
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/bin/Debug/netcoreapp2.0/wedding_planner.runtimeconfig.dev.json
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/bin/Debug/netcoreapp2.0/wedding_planner.dll
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/bin/Debug/netcoreapp2.0/wedding_planner.pdb
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/obj/Debug/netcoreapp2.0/wedding_planner.csproj.CoreCompileInputs.cache
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/obj/Debug/netcoreapp2.0/wedding_planner.AssemblyInfoInputs.cache
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/obj/Debug/netcoreapp2.0/wedding_planner.AssemblyInfo.cs
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/obj/Debug/netcoreapp2.0/wedding_planner.dll
+/Users/Kevin/Desktop/C#_stack/ORM/Entity/wedding_planner/obj/Debug/netcoreapp2.0/wedding_planner.pdb
